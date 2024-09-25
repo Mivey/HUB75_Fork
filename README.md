@@ -1,0 +1,4 @@
+This is a *Scaaled down* version of a personal project of mine using the HUB75 interface. The real interface has two sets of RGB outputs, and can support multipl 64x64 LED panels in series. This was scaled down to since even an 8x16 LED array generated nearly 14k cells after waiting for synopsys to work for an hour or so. 
+
+Neither this nor the original code base has been tested on actual hardware, and the project is very much a work in progress. 
+Going forward, I intend to make modifications to this code to make it more readable and portable, like using the type record to group and better use the different interfaces within this project.
