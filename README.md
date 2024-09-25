@@ -1,4 +1,4 @@
-This is a *Scaaled down* version of a personal project of mine using the HUB75 interface. The real interface has two sets of RGB outputs, and can support multipl 64x64 LED panels in series. This was scaled down to since even an 8x16 LED array generated nearly 14k cells after waiting for synopsys to work for an hour or so. 
+This is a *Scaled Down* version of a personal project of mine using the HUB75 interface. The real interface has two sets of RGB outputs, and can support multiple 64x64 LED panels in series. This version was created for my EECT 6325 VLSI class at UTD, to tune the total number of cells to be between 3000 to 6000. For context, using an 8x16 LED array, synopsys took nearly an hour to generate 15k cells.
 
 Neither this nor the original code base has been tested on actual hardware, and the project is very much a work in progress. 
-Going forward, I intend to make modifications to this code to make it more readable and portable, like using the type record to group and better use the different interfaces within this project.
+Going forward, I intend to make modifications to this code to make it more readable and portable. For example, using the *type record* to group signals for interfaces, and the addition of the AXI bus, to name a few.
